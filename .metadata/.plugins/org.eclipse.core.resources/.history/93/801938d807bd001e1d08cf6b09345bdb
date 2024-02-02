@@ -1,0 +1,28 @@
+import java.util.*;
+public class arraySortingWithoutmethod {
+	public static void main(String[] args) {
+		
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter total number of array element");
+		int n=sc.nextInt();
+		
+		System.out.println("Enter "+ n+" array element:");
+		int a[]=new int[n];
+		
+		for(int i=0;i<n;i++) {
+			a[i]=sc.nextInt();
+		}
+		
+		
+		
+		int sortarray[]=new int[n];
+		
+		for(int i=0;i<n;i++) {
+			
+			if(a[i]<=a[i+1]) {
+				sortarray[i]=a[i];	
+			}
+		}
+	}
+
+}

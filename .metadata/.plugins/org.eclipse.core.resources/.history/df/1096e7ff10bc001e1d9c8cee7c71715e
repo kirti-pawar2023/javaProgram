@@ -1,0 +1,19 @@
+package controlStttest;
+import java.util.*;
+public class EvenOddarray {
+	public static void main(String[] args) {
+		System.out.println("Enter array element");
+		Scanner sc=new Scanner(System.in);
+		int arr[]=new int[10];	
+		
+		int n=10;
+		int i;
+		for( i=0; i<n;i++) {
+			arr[i]=sc.nextInt();
+		}
+		System.out.println(arr[i]);		
+		
+		
+	}
+
+}

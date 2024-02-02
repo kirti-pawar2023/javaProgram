@@ -1,0 +1,21 @@
+package controlStttest;
+import java.util.Scanner;
+public class Armstrongno {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+		
+		System.out.println("Enter any number which you want to check armstrong number ir not ");
+		int count=0;
+		System.out.println("Input ");
+		
+		while(n!=0) {
+			int temp=n%10;
+		    count++;
+		}
+		System.out.println("Total count is"+count);
+
+	}
+
+}

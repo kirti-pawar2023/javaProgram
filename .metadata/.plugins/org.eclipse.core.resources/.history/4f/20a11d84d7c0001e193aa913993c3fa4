@@ -1,0 +1,25 @@
+
+public class ArraySwaping {
+	    public static void main(String args[])
+	    {
+	        int[] arr = {7,0,1,6,5,9};
+	       
+	
+	        int j=0;
+	        for(int i=arr.length-1;i>=arr.length/2-1;i--) {
+	     
+	        	int val=arr[i];
+	             arr[i]=j;
+	            System.out.println(arr[j]+" ");
+	        	j++;
+	        	
+	        }
+	    
+	        for(int i:arr) {
+	        	System.out.print(i+" ");
+	        }
+	        
+	    }
+	
+
+}

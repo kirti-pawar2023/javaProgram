@@ -1,0 +1,11 @@
+package StudentObject;
+
+public class GetStudentName {
+	public static void main(String[] args) {
+		
+
+	Student st=new Student();
+	st.rollno=10;
+	st.name="Kirti";
+	}
+}

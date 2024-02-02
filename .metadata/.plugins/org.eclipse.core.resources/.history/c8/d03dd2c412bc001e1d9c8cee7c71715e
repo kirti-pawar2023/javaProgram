@@ -1,0 +1,18 @@
+package controlStttest;
+import java.util.*;
+public class EvenOddarray {
+	public static void main(String[] args) {
+		int count =1;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter total number count of array : ");
+		int i;
+		int arr[]=new int[count];
+		for( i=0;i<count;i++) {
+			count=sc.nextInt();
+			
+		}
+		System.out.print(arr[i]);
+		
+	}
+
+}
